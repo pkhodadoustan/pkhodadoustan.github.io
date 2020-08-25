@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".locator").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 250, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+
+<body>
+  <div class="one-forth" id="main-links-div">
+    <a class="locator" href="#second-page"><img id="cv-img" src="images/cv-1.png" alt=""></a>
+    <a class="locator" href="#third-page"><img id="projects-img" src="images/projects.png" alt=""></a>
+    <a class="locator" href="#forth-page"><img id="art-img" src="images/art.png" alt=""></a>
+    <a class="locator" href="#fifth-page"><img id="achievements-img" src="images/achievements.png" alt=""></a>
+    <a class="locator" href="#sixth-page"><img id="innovations-img" src="images/innovations.png" alt=""></a>
+    <a href="https://github.com/pkhodadoustan" target="_blank"><img id="github-img" src="images/github.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/pardiskhodadoustan/" target="_blank"><img id="linkedin-img" src="images/linkedin.png" alt=""></a>
+    <a href="mailto:pardis.khodadoustan@gmail.com"><img id="contact-img" src="images/contact.png" alt=""></a>
+  </div>
+  <div class="three-forth">
+    <div class="three-forth">
+      <hr class="top-line">
+      <img id="profile-img" src="images/profile.png" alt="">
+      <div class="intro-div">
+        <p>Hey there.</p>
+        <hr>
+        <br>
+        <br>
+        <p>I'm <em>Pardis Khodadoustan</em></p>
+        <p>a <span class="creative">creative</span> <span class="role">software developer</span>.</p>
+      </div>
+      <hr class="separator">
+      <div class="about-div">
+        <p><strong>About me</strong></p>
+        <hr>
+        <br>
+        <p>I am a software developer and a designer.
+          I studied architecture as a young girl with passion for arts when I was 18 years old. Years after, I was introduced to programming.
+          When I came to the United States, I took programing classes and I fell in love with Computer Science.
+          The more I learn new skills in software development, the more fascinated I become with the power of software programs to interact with people, enrich their lives, and help them.
+          I believe science should benefit all people, and my goal is to make helpful software programs for everyone.
+        </p>
+      </div>
+      <hr class="bottom-line">
+    </div>
+    <div class="one-forth" id="skills-div">
+      <div class="skill-list">
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">OOP</p>
+          <img class="skills-rate" src="images/rate-6.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">Git</p>
+          <img class="skills-rate" src="images/rate-5.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">Java</p>
+          <img class="skills-rate" src="images/rate-6.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">C++</p>
+          <img class="skills-rate" src="images/rate-5.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">Python </p>
+          <img class="skills-rate" src="images/rate-5.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">JavaScript</p>
+          <img class="skills-rate" src="images/rate-3.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">HTML</p>
+          <img class="skills-rate" src="images/rate-4.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">CSS</p>
+          <img class="skills-rate" src="images/rate-4.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">Node.js</p>
+          <img class="skills-rate" src="images/rate-3.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">SQL</p>
+          <img class="skills-rate" src="images/rate-4.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">MongoDB</p>
+          <img class="skills-rate" src="images/rate-4.png" alt="">
+        </div>
+        <div class="skill-item">
+          <img class="bullet-img" src="images/bullet-img.png" alt="">
+          <p class="skill-item-text">Linux</p>
+          <img class="skills-rate" src="images/rate-4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="second-page" id="second-page">
+    <div class="resume-div">
+      <p class="resume-title"><strong>Experience</strong></p>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium.png" alt="">
+        <img class="organization-icon" src="images/google-icon.png" alt="">
+        <p class="resume-item-text">Incoming Google Software Engineering Intern</p>
+        <p class="date"><strong>Jun 2021 - Oct 2021</strong></p>
+      </div>
+      <div class="item-details">
+        <ul class="resume-item-details">
+          <li><strong><em>Skills & Tools:</em></strong> Java, Backend Development.</li>
+          <li>This is an incoming internship for summer 2021.</li>
+        </ul>
+      </div>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium.png" alt="">
+        <img class="organization-icon" src="images/google-icon.png" alt="">
+        <img class="organization-icon secondray-icon" src="images/codeu.png" alt="">
+        <p class="resume-item-text">Google CodeU Selected Participant</p>
+        <p class="date"><strong>May 2019 - August 2019</strong></p>
+      </div>
+      <div class="item-details">
+        <ul class="resume-item-details">
+          <li><strong><em>Skills & Tools:</em></strong> Java, JavaScript, Maven, Google APIs, Git, Github, CSS, HTML.</li>
+          <li>Developed a web-app under supervision of Google engineers in 10 weeks of Google CodeU Development Program.</li>
+          <li>Collaborated with a team of peers to design and implement a “social media web application” using Java, JavaScript, HTML and CSS, leveraging various Google Cloud APIs, including App Engine and Datastore.</li>
+          <li>Learned and followed industry best practices: contributing to open source software using Git and GitHub, conducting regular code reviews with/for teammates, extending an existing codebase by adding new features, and distributed
+            development.</li>
+          <li>Implemented a text/file group messaging features and a map feature Using Google Map, Blobstore, and Cloud Vision APIs.</li>
+        </ul>
+      </div>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium.png" alt="">
+        <img class="organization-icon" src="images/saddleback-icon.png" alt="">
+        <p class="resume-item-text">Computer Science Student-Help at Saddleback College</p>
+        <p class="date"><strong>Nov 2017 - Jun 2018</strong></p>
+      </div>
+      <div class="item-details">
+        <ul class="resume-item-details">
+          <li><strong><em>Skills & Tools:</em></strong> Java, C++, Object Oriented Paradigm, Debugging.</li>
+          <li>Tutoring students with understanding Object-Oriented Programming in Java and C++ and debugging students’ code.</li>
+          <li>Grading quizzes and assignments.</li>
+        </ul>
+      </div>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium.png" alt="">
+        <p class="resume-item-text">Tutor for Computer Science, Math, and Physics</p>
+        <p class="date"><strong>2018-2019</strong></p>
+      </div>
+    </div>
+    <div class="resume-edu">
+      <p class="resume-title"><strong>Education</strong></p>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium-blue.png" alt="">
+        <img class="organization-icon" src="images/csulb-icon.png" alt="">
+        <p class="resume-item-text">Bachelor of Computer Science</p>
+        <p class="date">Aug 2018 - Aug 2020</p>
+      </div>
+      <div class="item-details">
+        <ul class="resume-item-details univ-border">
+          <li><em>California State University Long Beach</em></li>
+          <li>GPA: 4.0</li>
+        </ul>
+      </div>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium-blue.png" alt="">
+        <img class="organization-icon" src="images/saddleback-icon.png" alt="">
+        <p class="resume-item-text"> Computer Science Transfer Degree</p>
+        <p class="date">Jan 2016 - May 2018</p>
+      </div>
+      <div class="item-details">
+        <ul class="resume-item-details univ-border">
+          <li><em>Saddleback College</em></li>
+          <li>GPA: 4.0</li>
+        </ul>
+      </div>
+      <div class="resume-item">
+        <img class="resume-bullet" src="images/bullet-medium-blue.png" alt="">
+        <img class="organization-icon" src="images/ut.png" alt="">
+        <p class="resume-item-text"> Master of Architecture</p>
+        <p class="date">August 2014</p>
+      </div>
+      <div class="item-details">
+        <ul class="resume-item-details univ-border">
+          <li><em>University of Tehran</em></li>
+          <li>GPA: 3.5</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="third-page" id="third-page">
+    <h2>Software Projects</h2>
+    <div>
+      <div class="project-div project-left">
+        <p class="project-title">Political Observer</p>
+        <hr>
+        <p>A <em>Cross-platform</em> mobile application</p>
+        <hr>
+        <p><strong>Android & iOS</strong></p>
+        <hr>
+        <p><em>2020</em></p>
+      </div>
+      <p class="project-text">In a team of three, we developed a mobile applicatiion to better educate people on Political Matters.
+        The goal was to provide political facts to people, and to collect anonymous data about what people think of different political issues.
+        We were able to show data analysis of our users' political opinion based on collected demographic information.
+        For this project I:
+      </p>
+      <p class="project-text"><em>• Created backend end-points for variety of data requests, data storage, and retrieval to efficietly collect, store and retrieve data using Node.js.</em></p>
+      <p class="project-text"><em>• Collaborated to develop features for dynamic data collection and visualization using React Native, Node.js, and MongoDB.</em></p>
+      <p class="project-text"><em>• Increased the efficiency of data analysis by implementing a raw data preprocessing mechanism and aggregating the results.</em></p>
+      <p class="project-text"><em>• Implemented Web-Scraping scripts to extract data from public government websites.</em></p>
+    </div>
+    <div class="project-images">
+
+      <img class="project-img p-img-1" src="images/Projects/political-observer-0.png" alt="">
+      <img class="project-img p-img-2" src="images/Projects/political-observer-7.png" alt="">
+      <img class="project-img p-img-3" src="images/Projects/political-observer-6.png" alt="">
+      <img class="project-img p-img-4" src="images/Projects/political-observer-1.png" alt="">
+    </div>
+    <hr class="project-separator">
+    <div>
+      <div class="project-div project-right">
+        <p class="project-title">UDP Music Streaming App</p>
+        <hr>
+        <p>Based on a <em>peer-to-peer distributed</em> file system</p>
+        <hr>
+        <p><strong>Distributed Systems</strong></p>
+        <hr>
+        <p><em>2020</em></p>
+      </div>
+      <p class="project-text">In this project, a large database of music file and their information files were stored on a peer-to-peer distributed file system.
+        User can search musics by title or author on the distributed system, and form their favirte playlist. The streamin is based on UDP.
+        For this project I implemented all general features and:
+      </p>
+      <p class="project-text"><em>• Implemented a peer-to-peer Distributed File System over Chord distributed Hash table in Java using Gson and java threads.</em></p>
+      <p class="project-text"><em>• Implemented Remote Procedure Calls to retrieve music stream and JSON data files using UDP protocol and Java.net library.</em></p>
+    </div>
+    <hr class="project-separator">
+    <div>
+      <div class="project-div project-left">
+        <p class="project-title">World Charities Web Application</p>
+        <hr>
+        <p>A media platform for charities and donors to connect</p>
+        <hr>
+        <p><strong>Web Application</strong></p>
+        <hr>
+        <p><em>2019</em></p>
+      </div>
+      <p class="project-text">In a team of three, we created a web-app for charities and donors to connect.
+        The goal was to create one place where users can find variety of charities helping different categories of people in need.
+        We created a forum for charities, donors, and volunteers to connect and learn more about eah other.
+        In addition to general backend and frontend features of the app, I:
+      </p>
+      <p class="project-text"><em>• Made the app more user friendly by creating a search charity feature by location and subject for users.</em></p>
+      <p class="project-text"><em>• Improved the forum functionality by adding the capability of uploading file and images and filtering messages by images subjects using Google Vsion API.</em></p>
+      <p class="project-text"><em>• Created two separate templates for users and charities addressing different needs of each group.</em></p>
+      <p class="project-text"><em>• Created a Map feature for users to find charities near them using Google Map API.</em></p>
+    </div>
+    <hr class="project-separator">
+    <div>
+      <div class="project-div project-right">
+        <p class="project-title">NFL Football Tour APP</p>
+        <hr>
+        <p>A travel planning app based on <em>Graph Data Structure</em></p>
+        <hr>
+        <p><strong>Desktop App</strong></p>
+        <hr>
+        <p><em>2017</em></p>
+      </div>
+      <p class="project-text">The goal of this application is to provide travel plan for users who want to visit different NFL stadiums during football season.
+        The app is created using Qt GUI, CSS, and C++ language. Other than implementing general features of the app in a team of three, I:
+      </p>
+      <p class="project-text"><em>• Implemented the Map of NFL Stadiums in an adjacency list Graph structure using C++</em></p>
+      <p class="project-text"><em>• Improved variety of path finding algorithms for the users to plan their trip in the most effiecnt way.</em></p>
+      <p class="project-text"><em>• Created different features to find the desired touring routes using algorithms such as Dijkstra’s, DFS, BFS, and MST on Graph.</em></p>
+      <p class="project-text"><em>• Created a database to hold user records and retrieve stadium information using MySQL and MVC design pattern.</em></p>
+    </div>
+    <hr class="project-separator">
+  </div>
+  <div class="fourth-page" id="forth-page">
+    <div class="section-title">
+      <p class="arts-title">Arts</p>
+      <hr>
+    </div>
+    <img class="art-img art-img-1" src="images/Arts/architecture-img.png" alt="">
+    <img class="art-img art-img-2" src="images/Arts/arch-1.png" alt="">
+    <img class="art-img art-img-3" src="images/Arts/arch-2.png" alt="">
+    <img class="art-img art-img-4" src="images/Arts/arch-3.png" alt="">
+    <img class="art-img art-img-5" src="images/Arts/arch-4.png" alt="">
+    <img class="art-img art-img-6" src="images/Arts/arch-5.png" alt="">
+    <img class="art-img art-img-7" src="images/Arts/drawing-img.png" alt="">
+    <img class="art-img art-img-8" src="images/Arts/p-1.png" alt="">
+    <img class="art-img art-img-9" src="images/Arts/p-2.png" alt="">
+    <img class="art-img art-img-10" src="images/Arts/p-3.png" alt="">
+    <img class="art-img art-img-11" src="images/Arts/floral-img.png" alt="">
+    <img class="art-img art-img-12" src="images/Arts/f-1.jpg" alt="">
+    <img class="art-img art-img-13" src="images/Arts/f-2.jpg" alt="">
+    <img class="art-img art-img-14" src="images/Arts/f-3.png" alt="">
+  </div>
+  <div class="fifth-page" id="fifth-page">
+    <div class="section-title">
+      <p class="award-title">Awards & Achievements</p>
+      <hr>
+    </div>
+    <table class="awards-table">
+      <tbody>
+        <tr>
+          <td>
+            <img class="award-img" src="images/Awards/award-grad.png" alt="">
+            <p><strong><em>Outstanding Computer Science Baccalureate Graduate Award</em></strong></p>
+            <hr>
+            <p>Class of 2020</p>
+            <hr>
+            <p>Computer Science Department</p>
+            <hr>
+            <p><em>California State University Long Beach</em></p>
+          </td>
+          <td>
+            <img class="award-img" src="images/Awards/award-csr.jpg" alt="">
+            <p><strong><em>Cerfificate of Participation & Completion Computer Science Research Workshop</em></strong></p>
+            <hr>
+            <p>2019</p>
+            <hr>
+            <p>Google Sponsored</p>
+            <hr>
+            <p><em>By Univercity of California Irvine &</em></p>
+            <p><em>California State University Long Beach</em></p>
+          </td>
+          <td>
+            <img class="award-img" src="images/Awards/award-codeu.jpg" alt="">
+            <p><strong><em>Cerfificate of Completion Google CodeU Development Program</em></strong></p>
+            <hr>
+            <p>2019</p>
+            <hr>
+            <p>Google</p>
+            <hr>
+            <p><em>Google CodeU Program</em></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr class="inov-separator">
+  </div>
+  <div class="sixth-page" id="sixth-page">
+    <div class="section-title">
+      <p class="innovation-title">Innovation & Research</p>
+      <hr>
+      <br>
+      <br>
+      <div class="inov-item">
+        <p><strong>Gender shift among academic glaucoma specialists in the past 30 years.</strong></p>
+        <p><em>Collected and Pre-processed Research Data by Implementing a Python script for data scraping and data mining of hundreds of records from oficial resources.</em></p>
+        <hr>
+        <p><em><strong>Co-Author</strong></em></p>
+        <hr>
+        <p>United States, June 2020</p>
+        <p>ARVO Journal</p>
+        <p><em>Investigative Ophthalmology & Visual Science Vol. 61</em></p>
+      </div>
+      <hr class="inov-separator">
+      <div class="inov-item">
+        <p><strong>A Polymer Adaptive Second-skin for Glass-facade Buidings in Hot and Dry Climates.</strong></p>
+        <p><em>A sustainable solution to control solar heat gain of existing glass-facade buildings in hot and dry climates.</em></p>
+        <hr>
+        <p><em><strong>Patented Invention</strong></em></p>
+        <hr>
+        <p>Iran, 2014</p>
+        <p>E04C E04</p>
+        <p><em>139350840003002485</em></p>
+      </div>
+      <div class="footer">
+        <p>Pardis.khodadoustan@gmail.com</p>
+        <p><em>Designed and Developed by Pardis Khodadoustan</em></p>
+        <p>© 2018 Pardis Khodadoustan</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
